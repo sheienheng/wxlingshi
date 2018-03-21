@@ -1,0 +1,16 @@
+<view class="main">
+    <view class="banner">
+        <image src="/img/banner2.jpg"></image>
+    </view>
+
+    <view class="list-box">
+        <view class="newest-list" wx:for="{{count}}" wx:key="{{index}}">
+            <navigator url="../details/details">
+                <image src="/img/guo1.jpg"></image>
+                <view class="newest-text"><text>果味 100g</text></view>
+                <view class="newest-text"><text>￥ 0.01</text></view>
+            </navigator>
+        </view>
+        
+    </view>
+</view>

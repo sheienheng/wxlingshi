@@ -1,0 +1,99 @@
+
+<view class='main'>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" 
+    duration="{{duration}}" circular='{{circular}}'>
+      <block wx:for="{{imgUrls}}"  wx:key="{{index}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" width="100%" />
+        </swiper-item>
+      </block>
+  </swiper>
+</view>
+<view class="selected">
+  <view class="select-title"><text>精选主题</text></view>
+  <view class="select-top">
+    <view class="select-top-small">
+      <navigator url="/pages/foot/foot?a=1">
+        <image src="/img/s1.jpg"></image>
+      </navigator>
+    </view>
+    <view class="select-top-small">
+      <navigator url="/pages/foot/foot">
+        <image src="/img/s2.jpg"></image>
+      </navigator>
+    </view>
+    <view class="select-bottom">
+        <navigator url="/pages/foot/foot">
+            <image src="/img/s3.jpg"></image>
+        </navigator>
+    </view>
+  </view>
+</view>
+<view class="newest">
+  <view class="newest-title"><text>最近新品</text></view>
+    <view class="newest-box">
+      <view class="newest-list">
+        <navigator url="/pages/details/details">
+          <image src="/img/c1.jpg"></image>
+          <view class="newest-text"><text>瓜子 100g</text></view>
+          <view class="newest-text price"><text>￥ 0.01</text></view>
+        </navigator>
+    </view>
+    <view class="newest-list">
+        <navigator url="/pages/details/details">
+            <image src="/img/c2.jpg"></image>
+            <view class="newest-text"><text>瓜子 半斤</text></view>
+            <view class="newest-text price"><text>￥ 0.02</text></view>
+        </navigator>
+    </view>
+    <view class="newest-list">
+        <navigator url="/pages/details/details">
+            <image src="/img/c3.jpg"></image>
+            <view class="newest-text"><text>瓜子 375g</text></view>
+            <view class="newest-text price"><text>￥ 0.03</text></view>
+        </navigator>
+    </view>
+    <view class="newest-list">
+        <navigator url="/pages/details/details">
+            <image src="/img/c4.jpg"></image>
+            <view class="newest-text"><text>瓜子 100g</text></view>
+            <view class="newest-text price"><text>￥ 0.01</text></view>
+        </navigator>
+    </view>
+    <view class="newest-list">
+        <navigator url="/pages/details/details">
+            <image src="/img/c5.jpg"></image>
+            <view class="newest-text"><text>瓜子 半斤</text></view>
+            <view class="newest-text price"><text>￥ 0.02</text></view>
+        </navigator>
+    </view>
+    <view class="newest-list">
+        <navigator url="/pages/details/details">
+            <image src="/img/c1.jpg"></image>
+            <view class="newest-text"><text>瓜子 375g</text></view>
+            <view class="newest-text price"><text>￥ 0.03</text></view>
+        </navigator>
+    </view>
+    <view class="newest-list">
+        <navigator url="/pages/details/details">
+            <image src="/img/c6.jpg"></image>
+            <view class="newest-text"><text>瓜子 100g</text></view>
+            <view class="newest-text price"><text>￥ 0.01</text></view>
+        </navigator>
+    </view>
+    <view class="newest-list">
+        <navigator url="/pages/details/details">
+            <image src="/img/c7.jpg"></image>
+            <view class="newest-text"><text>瓜子 半斤</text></view>
+            <view class="newest-text price"><text>￥ 0.02</text></view>
+        </navigator>
+    </view>
+    <view class="newest-list">
+        <navigator url="/pages/details/details">
+            <image src="/img/c7.jpg"></image>
+            <view class="newest-text"><text>瓜子 半斤</text></view>
+            <view class="newest-text price"><text>￥ 0.02</text></view>
+        </navigator>
+    </view>
+  </view>
+</view>
